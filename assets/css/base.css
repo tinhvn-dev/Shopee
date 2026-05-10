@@ -3,6 +3,7 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --border-color: #dbdbdb;
 }
 
 * {
@@ -12,7 +13,7 @@
 html {
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
@@ -61,11 +62,25 @@ html {
 }
 
 .modal__body {
-    width: 300px;
-    height: 200px;
     background-color: var(--white-color);
     border-radius: 5px;
     margin: auto;   
     position: relative;
     z-index: 1;
+}
+
+/* Button styles */
+.btn {
+    min-width: 142px;
+    height: 36px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.btn.btn--primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
 }
