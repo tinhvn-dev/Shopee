@@ -534,7 +534,7 @@
     display: none;
     animation: fadeIn 0.2s ease-in;
     cursor: default;
-    z-index: 1;
+    z-index: 10;
 }
 
 .header__cart-heading {
@@ -1179,4 +1179,8 @@ i.home-product-item__like-icon-fill {
     position: relative;
     top: 3px;
     font-weight: 600;
+}
+
+.home-product__pagination {
+    margin: 48px 0 32px;
 }
