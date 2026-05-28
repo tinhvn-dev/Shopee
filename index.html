@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-6.7.2-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +20,9 @@
     <div class="app">
         <!-- Begin: Header -->
         <header class="header">
-            <div class="grid">
+            <div class="grid wide">
                 <!-- Begin: Navbar -->
-                <nav class="header__navbar">
+                <nav class="header__navbar hide-on-mobile-tablet">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
                             Vào cửa hàng trên ứng dụng F8-Shop
@@ -128,7 +130,7 @@
 
                 <!-- Header Search -->
                 <div class="header-with-search">
-                    <div class="header__logo">
+                    <div class="header__logo hide-on-tablet">
                         <a href="/" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
                                 <g fill-rule="evenodd">
@@ -264,7 +266,7 @@
         <!-- End: Header -->
 
         <div class="app__container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row app__content">
                     <div class="grid__column-2">
                         <nav class="category">
@@ -272,20 +274,20 @@
 
                             <ul class="category-list">
                                 <li class="category-item category-item--active">
-                                    <a href="" class="category-item__link">Trang điểm mặt</a>
+                                    <a href="" class="category-item__link">Laptop</a>
                                 </li>
                                 <li class="category-item">
-                                    <a href="" class="category-item__link">Trang điểm môi</a>
+                                    <a href="" class="category-item__link">PC</a>
                                 </li>
                                 <li class="category-item">
-                                    <a href="" class="category-item__link">Trang điểm mắt</a>
+                                    <a href="" class="category-item__link">Playstation</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
 
                     <div class="grid__column-10">
-                        <div class="home-filter">
+                        <div class="home-filter hide-on-mobile-tablet">
                             <span class="home-filter-label">Sắp xếp theo</span>
                             <button class="home-filter-btn btn">Phổ biến</button>
                             <button class="home-filter-btn btn btn--primary">Mới nhất</button>
@@ -729,7 +731,7 @@
         </div>
 
         <footer class="footer">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row">
                     <div class="grid__column-2-4">
                         <h3 class="footer__heading">Chăm sóc khách hàng</h3>
@@ -765,13 +767,13 @@
                         <h3 class="footer__heading">Danh mục</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
-                                <a href="" class="footer-item-link">Trang điểm mặt</a>
+                                <a href="" class="footer-item-link">Laptop</a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item-link">Trang điểm môi</a>
+                                <a href="" class="footer-item-link">PC</a>
                             </li>
                             <li class="footer-item">
-                                <a href="" class="footer-item-link">Trang điểm mắt</a>
+                                <a href="" class="footer-item-link">Playstation</a>
                             </li>
                         </ul>
                     </div>
@@ -818,7 +820,7 @@
             </div>
             
             <div class="footer__bottom">
-                <div class="grid">
+                <div class="grid wide">
                     <p class="footer__text">2026 - Bản quyền thuộc về công ty F8-Shop</p>
                 </div>
             </div>
