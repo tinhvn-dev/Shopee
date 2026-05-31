@@ -1,7 +1,7 @@
 /* Mobile & Tablet */
 @media (max-width: 1023px) {
     :root {
-        --header-height: 68px;
+        --header-height: 54px;
         --navbar-height: 0px;
     }
 
@@ -15,6 +15,10 @@
         left: 0;
         right: 0;
         z-index: 10;
+    }
+
+    .mobile-category {
+        display: block;
     }
 
     .app__content {
@@ -64,6 +68,10 @@
         justify-content: space-between;
     }
 
+    .header__mobile-search {
+        display: block;
+    }
+
     .header__cart,
     .header__logo {
         width: unset;
@@ -100,6 +108,10 @@
         }
     }
 
+    .header__logo-img {
+        width: 110px;
+    }
+
     .pagination-item {
         margin: 0;
     }
@@ -112,5 +124,27 @@
 
     .app__content {
         margin: 0 4px;
+    }
+
+    .footer__content {
+        padding: 0 16px;
+    }
+
+    .footer__heading {
+        text-align: center;
+    }
+
+    .footer__download,
+    .footer-item-link {
+        justify-content: center;
+    }
+
+    .footer__download-apps {
+        flex: unset;
+    }
+
+    .footer__download-app-link {
+        display: block;
+        padding: 6px 8px;
     }
 }
